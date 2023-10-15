@@ -11999,6 +11999,7 @@ body .main .header .active {
 }
 body .main .header .logo {
   font-size: 18px;
+  padding-left: 170px;
 }
 body .main .main-chapter {
   background-color: white;
