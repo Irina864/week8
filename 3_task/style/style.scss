@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/intro');
+
+$fonttext: 'Roboto Slab', serif;
+$fonttitlebtn: 'Intro Demo', sans-serif;
+
+
 
 $maxWidth: 1440;
 
@@ -5,4 +12,14 @@ $maxWidth: 1440;
 	$addSize: $pcSize - $mobSize;
 	$maxWidth: $maxWidth - 320;
 	font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 900px;
+    width: 1440px;
+    .header {
+        
+    }
 }

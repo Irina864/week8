@@ -1,1 +1,8 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.cdnfonts.com/css/intro");
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 900px;
+  width: 1440px;
+}/*# sourceMappingURL=style.css.map */
